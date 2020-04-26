@@ -1,1 +1,1 @@
-# fran-ais-et-technologie
+# français-et-technologie
