@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+body {
+    font-family: 'Mukta', sans-serif;
+    min-height: 550px;
+}
+
+.la-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.panneau-pourpre {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 70%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 400px;
+    background-color: rgba(68, 82, 112, 0.8);
+}
+
+.panneau-blanc {
+    background-color: rgba(255, 255, 255, 1);
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    width: 50%;
+    right: calc(50% - 50px);
+    box-shadow: 0 0 15px 9px #00000096;
+}
+
+.panneau-pourpre {
+    color: rgb(205, 205, 207);
+}
+
+.nom-du-site {
+    width: 45%;
+    padding: 0 50px;
+    top: 20%;
+    right: 0;
+    position: absolute;
+    text-align: left;
+}
+
+.nom-du-site h2 {
+    padding-bottom: 20px;
+    font-family: 'Italianno';
+    font-size: 40px;
+}
+
+.nom-du-site p {
+    text-align: justify;
+}
+
+.connecter {
+    color: rgb(68, 82, 112);
+    text-align: left;
+    padding: 70px;
+}
+
+.connecter h2 {
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.connecter input[type="text"],
+.connecter input[type="password"] {
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid rgb(68, 82, 112);
+    color: rgb(68, 82, 112);
+    outline: none;
+}
+
+.connecter input[type="button"] {
+    max-width: 150px;
+    width: 100%;
+    background: rgb(68, 82, 112);
+    color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    float: right;
+    cursor: pointer;
+}
